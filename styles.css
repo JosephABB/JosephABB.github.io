@@ -1,0 +1,55 @@
+/* UTILITIES */
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: steelblue;
+}
+
+.nav_bar {
+    display: flex;
+    flex-grow: 1;
+    align-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 10px;
+}
+
+.logo {
+    font-size: 40px;
+    flex-grow: 1;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu li {
+    flex-grow: 1;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.item {
+    font-size: 20px;
+    text-align: right;
+}
+
+
+
+
+
+
